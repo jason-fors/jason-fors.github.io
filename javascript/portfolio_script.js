@@ -37,9 +37,6 @@ function showSlides(n) {
 }
 
 
-console.log("Is this thing on?");
-
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
