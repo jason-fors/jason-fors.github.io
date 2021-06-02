@@ -20,7 +20,7 @@ body.fade-out {
 
 h1 {
     text-transform: uppercase; 
-    font-family: "Trebuchet MS", Optima; /* try other options */
+    font-family: Perpetua, Rockwell Extra Bold; /* try other options */
     text-align: center; 
     margin-top: 3%; 
     color: #1a1a1a; 
@@ -39,10 +39,10 @@ h1:hover {
 }
 
 p {
-    font-family:  Perpetua, Rockwell Extra Bold /*'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  try other options */
+    font-family:  Perpetua, Rockwell Extra Bold; /*'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  try other options */
     text-align: left; 
     letter-spacing: 1px;  /* This expands the text slightly -- fiddle */
-    font-size: 20px;
+    font-size: 24px;
     padding-left: 20px; 
     padding-right: 20px; 
 }
@@ -135,7 +135,7 @@ footer {
     padding: .75vw 1vw; 
     text-decoration: none; /* Removes underlines under text on navbar */
     font-family: Avant Garde, Helvetica; /* try other options */
-    font-size: 1.5vw; 
+    font-size: 1.4vw; 
     text-align: center; 
     position: relative; /* Sets text relative to its normal positioning, allowing use of animation below */
     -webkit-animation: moveNavText 3s; /* Animation for Safari 4.0 - 8.0 */
