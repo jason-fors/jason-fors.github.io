@@ -20,17 +20,11 @@ body.fade-out {
 
 h1 {
     text-transform: uppercase; 
-    font-family: Perpetua, Rockwell Extra Bold; /* try other options */
+    font-family: Perpetua, Rockwell Extra Bold; /
     text-align: center; 
     margin-top: 3%; 
     color: #1a1a1a; 
     font-size: 2vw;
-}
-
-h1:hover {
-    filter: grayscale(5%); 
-    transform: scale(1.1); /* try other options */
-    transition: transform 1s; /* adjust */
 }
 
 /* Styling for portfolio title text */
@@ -39,17 +33,17 @@ h1:hover {
 }
 
 p {
-    font-family:  Perpetua, Rockwell Extra Bold; /*'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;  try other options */
+    font-family:  Perpetua, Rockwell Extra Bold; 
     text-align: left; 
-    letter-spacing: 1px;  /* This expands the text slightly -- fiddle */
-    font-size: 24px;
+    letter-spacing: 1px;  /* This expands the text slightly */
+    font-size: calc(10px + 0.75vw);
     padding-left: 20px; 
     padding-right: 20px; 
 }
 
 p:hover {
-    transition: transform 1s; /* experiment, maybe faster */
-	transform: scale(1.01); /* try more */
+    transition: transform 1s; 
+	transform: scale(1.01); 
 
 }
 
@@ -64,8 +58,8 @@ p:hover {
 
 /* Affects the quote, github link, and footer */
 .center:hover {
-    transition: transform 2s; /* Too slow? Try faster. */
-    transform: scale(1.1); /* See if more/less/none/different effect looks better */
+    transition: transform 2s; 
+    transform: scale(1.1); 
 }
 
 a {
@@ -90,8 +84,8 @@ img {
 
 img:hover {
 	filter: grayscale(5%);  /* Brings back color when hovered over */
-    transition: transform 1s; /* experment with this */
-	transform: scale(1.1); /* experiment with this */
+    transition: transform 1s; 
+	transform: scale(1.1); 
 }
 
 /* On screens <576px images will be 100px tall and centered vertically in column */
@@ -134,7 +128,7 @@ footer {
     color: white; 
     padding: .75vw 1vw; 
     text-decoration: none; /* Removes underlines under text on navbar */
-    font-family: Avant Garde, Helvetica; /* try other options */
+    font-family: Avant Garde, Helvetica; 
     font-size: 1.4vw; 
     text-align: center; 
     position: relative; /* Sets text relative to its normal positioning, allowing use of animation below */
@@ -212,7 +206,7 @@ footer {
 /*=========================== Slideshow STYLING ================================*/
 
 #Slideshow_Background {
-    background: rgba(49, 77, 78, 0.9);  /* It might actually look better without this. !!!!!!!!!!!!!!!!!! */
+    background: rgba(49, 77, 78, 0.9);  /* ##### Get opinions on if it looks better without this. Consider removing. ##### */
 }
 
 .mySlides {
@@ -345,7 +339,7 @@ footer {
     width: 50%; 
     padding: 10px;
     padding-top: 1.9%; 
-    height: 400px; /* may need to adjust depending on text */
+    height: 400px; 
     background-color: #f5e9d2; 
 }
 
@@ -363,12 +357,6 @@ footer {
     padding-top: 1.9%;
     height: 400px;
     background-color: rgba(123, 208, 211, 0.2);
-}
-
-/* For final row, overrides height & padding to provide room for the contact form !!!!!!!!!!!!! still needed? */
-.Column_tall {
-    padding-top: 3.5%;
-    height: 450px;
 }
 
 .Row:after {
@@ -400,7 +388,6 @@ input[type=text] {
     box-sizing: border-box; /* Creates box with border around contact form input boxes */
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical; /* Allows user to resize text boxes vertically ??????? */
     font-family: Perpetua, Rockwell Extra Bold;
 }
 
@@ -426,7 +413,7 @@ input[type=submit]:hover {
     background-color: white; 
     color: black; 
     transform: scale(1.5); 
-    transition: transform 1.5s; /* This may be too long. Try other options. */
+    transition: transform 1.5s; 
 }
 
 form {
